@@ -1,0 +1,7 @@
+Avg Defect Rate = AVERAGE('Supply Chain Data'[Defect rates])*100
+Avg Profit Margin% = AVERAGE('Supply Chain Data'[Profit Margin%])
+Order Quantity = SUM('Supply Chain Data'[Order quantities])
+Stock Level = SUM('Supply Chain Data'[Stock levels])
+Total Costs = SUM('Supply Chain Data'[Manufacturing costs])+SUM('Supply Chain Data'[Shipping costs])+SUM('Supply Chain Data'[Costs])
+Total Products Sold = SUM('Supply Chain Data'[Products sold])
+Total Revenue = SUM('Supply Chain Data'[Revenue])
